@@ -1,0 +1,10 @@
+{
+	"appName": {
+		"message": "BrowserBack",
+		"description": "Extension Name."
+	},
+	"appDescription": {
+		"message": "Allows ⌫ and ⌦ to navigate the current page.",
+		"description": "Extension Description."
+	}
+}
