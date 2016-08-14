@@ -17,5 +17,15 @@ window.addEventListener("keydown", event => {
 	event.preventDefault();
 	event.stopPropagation();
 
-	navigate(event.shiftKey);
+	if (window !== window.top)
+		chrome.runtime.sendMessage({iframe: true, forward: event.shiftKey});
+	else
+		navigate(event.shiftKey);
+});
+
+chrome.runtime.onMessage.addListener(message => {
+	if (!message.iframe)
+		return;
+
+	navigate(message.forward);
 });
