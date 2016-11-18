@@ -1,0 +1,10 @@
+<script>
+	"use strict";
+
+	safari.application.addEventListener("message", event => {
+		if (event.name !== "iframe")
+			return;
+
+		event.target.page.dispatchMessage(event.name, event.message);
+	});
+</script>
