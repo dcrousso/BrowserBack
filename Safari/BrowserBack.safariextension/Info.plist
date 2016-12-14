@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Devin Rousso</string>
 	<key>Builder Version</key>
-	<string>12603.1.12</string>
+	<string>12603.1.14.2</string>
 	<key>CFBundleDisplayName</key>
 	<string>BrowserBack</string>
 	<key>CFBundleIdentifier</key>
@@ -32,7 +32,7 @@
 		</dict>
 	</dict>
 	<key>Description</key>
-	<string>Allows ⌫ and ⌦ to navigate the current page.</string>
+	<string>Allows ⌫ and ⌦ to navigate the current page</string>
 	<key>DeveloperIdentifier</key>
 	<string>0000000000</string>
 	<key>ExtensionInfoDictionaryVersion</key>
@@ -47,9 +47,9 @@
 			<string>All</string>
 		</dict>
 	</dict>
-	<key>Website</key>
-	<string>http://devinrousso.com</string>
 	<key>Update Manifest URL</key>
 	<string>http://devinrousso.com/projects/BrowserBack/SafariUpdate.plist</string>
+	<key>Website</key>
+	<string>http://devinrousso.com</string>
 </dict>
 </plist>
